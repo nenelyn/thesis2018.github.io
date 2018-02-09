@@ -1,0 +1,115 @@
+
+.account{
+    font-family: Arial;
+    text-align:center;
+    
+}
+.mind2 {
+        -moz-flex-grow: 1;
+        -webkit-flex-grow: 1;
+        -ms-flex-grow: 1;
+        flex-grow: 1;
+        -moz-flex-shrink: 1;
+        -webkit-flex-shrink: 1;
+        -ms-flex-shrink: 1;
+        flex-shrink: 1;
+        display: -moz-flex;
+        display: -webkit-flex;
+        display: -ms-flex;
+        display: flex;
+        -moz-align-items: center;
+        -webkit-align-items: center;
+        -ms-align-items: center;
+        align-items: center;
+        -moz-justify-content: center;
+        -webkit-justify-content: center;
+        -ms-justify-content: center;
+        justify-content: center;
+        -moz-flex-direction: column;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        position: absolute;
+        max-width: 100%;
+        z-index: 3;
+    }
+
+        .mind2{
+            -webkit-transform: translateY(0.25rem);
+            -ms-transform: translateY(0.25rem);
+            transform: translateY(0.25rem);
+            -moz-transition: opacity 0.325s ease-in-out, -moz-transform 0.325s ease-in-out;
+            -webkit-transition: opacity 0.325s ease-in-out, -webkit-transform 0.325s ease-in-out;
+            -ms-transition: opacity 0.325s ease-in-out, -ms-transform 0.325s ease-in-out;
+            transition: opacity 0.325s ease-in-out, transform 0.325s ease-in-out;
+            padding: 4.5rem 2.5rem 1.5rem 2.5rem ;
+            position: relative;
+            width: 70rem;
+            max-width: 100%;
+            background-color: rgb(10, 10, 15);
+            border: #f9eeee solid 3px;
+            border-radius: 12px;
+            box-shadow: gray 2px 2px 5px 2px;
+            opacity: 0;
+            -moz-transform: translateY(0);
+            -webkit-transform: translateY(0);
+            -ms-transform: translateY(0);
+            transform: translateY(0);
+            opacity: 1;
+            display: block;
+            position: absolute;
+            top: 30;
+            right: 370;
+            white-space: inherit;
+            text-align: justify;
+
+                
+        }
+.dropbtn6 {
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    border: none;
+    cursor:400px
+}
+
+.dropdown6 {
+    position: absolute;
+    display: inline-block;
+    top: 30px;
+    position: fixed;
+    right: 70px;
+    
+}
+
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content6 {
+    display: none;
+    position: absolute;
+    background-color: transparent;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content6 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content6 a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown6:hover .dropdown-content6 {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown6:hover .dropbtn6 {
+    background-color: #3e8e41;
+}
